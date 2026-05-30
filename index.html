@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="[Store Name] - Premium Multi-brand Electronics & Home Appliances Store. Shop Mobile Phones, ACs, Refrigerators, TVs, Laptops and more with best prices and EMI options." />
+  <meta name="keywords" content="electronics store, home appliances, mobile phones, AC, refrigerator, TV, laptop, India" />
+  <title>[Store Name] — Premium Electronics & Home Appliances</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <div class="logo-mark">S</div>
+      <div class="logo-text">
+        <span class="logo-name">[Store Name]</span>
+        <span class="logo-tagline">Electronics & Appliances</span>
+      </div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" onclick="showPage('home')">Home</a>
+      <a href="#categories" class="nav-link" onclick="showPage('categories')">Categories</a>
+      <a href="#products" class="nav-link" onclick="showPage('products')">Products</a>
+      <a href="#offers" class="nav-link" onclick="showPage('offers')">Offers</a>
+      <a href="#service" class="nav-link" onclick="showPage('service')">Service</a>
+      <a href="#about" class="nav-link" onclick="showPage('about')">About</a>
+      <a href="#contact" class="nav-link" onclick="showPage('contact')">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="search-btn" id="searchToggle" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <a href="https://wa.me/919876543210" class="nav-cta" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <!-- Search Bar -->
+  <div class="search-bar" id="searchBar">
+    <div class="search-inner">
+      <input type="text" id="searchInput" placeholder="Search for mobiles, TVs, ACs, refrigerators..." />
+      <button class="search-exec">Search</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== PAGES WRAPPER ==================== -->
+<main id="mainContent">
+
+<!-- ============ PAGE: HOME ============ -->
+<section id="page-home" class="page active">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🏆 Mangaluru's Trusted Electronics Store</div>
+      <h1 class="hero-title">
+        Premium Electronics<br/>
+        <span class="gradient-text">Delivered to Your Doorstep</span>
+      </h1>
+      <p class="hero-desc">Explore 5000+ products from 50+ top brands. Best prices, easy EMI, and expert after-sales service — all under one roof.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="showPage('products')">Shop Now</button>
+        <button class="btn-glass" onclick="showPage('offers')">View Offers</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Years</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">50K+</span><span class="stat-label">Happy Customers</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">5000+</span><span class="stat-label">Products</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Brands</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-device-showcase">
+        <div class="device-ring ring1"></div>
+        <div class="device-ring ring2"></div>
+        <div class="device-card dc1">
+          <div class="dc-icon">📱</div>
+          <div class="dc-info"><b>Mobiles</b><span>from ₹8,999</span></div>
+        </div>
+        <div class="device-card dc2">
+          <div class="dc-icon">🖥️</div>
+          <div class="dc-info"><b>Smart TVs</b><span>from ₹14,999</span></div>
+        </div>
+        <div class="device-card dc3">
+          <div class="dc-icon">❄️</div>
+          <div class="dc-info"><b>Air Conditioners</b><span>from ₹28,999</span></div>
+        </div>
+        <div class="device-card dc4">
+          <div class="dc-icon">💻</div>
+          <div class="dc-info"><b>Laptops</b><span>from ₹24,999</span></div>
+        </div>
+        <div class="center-glow">
+          <div class="center-icon">⚡</div>
+          <span>[Store Name]</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marquee Brands -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-inner">
+        <span>Samsung</span><span>•</span>
+        <span>Apple</span><span>•</span>
+        <span>LG</span><span>•</span>
+        <span>Sony</span><span>•</span>
+        <span>Voltas</span><span>•</span>
+        <span>Daikin</span><span>•</span>
+        <span>Whirlpool</span><span>•</span>
+        <span>Godrej</span><span>•</span>
+        <span>Bosch</span><span>•</span>
+        <span>Haier</span><span>•</span>
+        <span>OnePlus</span><span>•</span>
+        <span>Xiaomi</span><span>•</span>
+        <span>Dell</span><span>•</span>
+        <span>HP</span><span>•</span>
+        <span>Lenovo</span><span>•</span>
+        <span>Hitachi</span><span>•</span>
+        <span>Samsung</span><span>•</span>
+        <span>Apple</span><span>•</span>
+        <span>LG</span><span>•</span>
+        <span>Sony</span><span>•</span>
+        <span>Voltas</span><span>•</span>
+        <span>Daikin</span><span>•</span>
+        <span>Whirlpool</span><span>•</span>
+        <span>Godrej</span><span>•</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Store Introduction -->
+  <div class="section intro-section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-visual">
+          <div class="intro-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=600&q=80" alt="[Store Name] Showroom" />
+            <div class="intro-badge-float">
+              <div class="ibf-icon">🏆</div>
+              <div>
+                <b>Authorized Dealer</b>
+                <span>50+ Brands</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro-content">
+          <div class="section-chip">Our Story</div>
+          <h2 class="section-title">Your Trusted Electronics Partner Since 2000</h2>
+          <p class="section-desc">We started as a small electronics shop and grew into one of Mangaluru's most trusted multi-brand showrooms. With over 25 years of experience, we pride ourselves on offering genuine products, competitive pricing, and world-class after-sales service.</p>
+          <div class="intro-features">
+            <div class="intro-feat">
+              <div class="feat-icon">✅</div>
+              <div>
+                <b>100% Genuine Products</b>
+                <p>All products come with official warranty</p>
+              </div>
+            </div>
+            <div class="intro-feat">
+              <div class="feat-icon">💰</div>
+              <div>
+                <b>Best Price Guarantee</b>
+                <p>We match any genuine price in the market</p>
+              </div>
+            </div>
+            <div class="intro-feat">
+              <div class="feat-icon">🚚</div>
+              <div>
+                <b>Free Home Delivery</b>
+                <p>On orders above ₹5,000 within city</p>
+              </div>
+            </div>
+            <div class="intro-feat">
+              <div class="feat-icon">🔧</div>
+              <div>
+                <b>Expert Installation</b>
+                <p>Professional setup by trained technicians</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary" onclick="showPage('about')">Learn More About Us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Choose Us -->
+  <div class="section why-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">Why Choose Us</div>
+        <h2 class="section-title">The [Store Name] Advantage</h2>
+        <p class="section-subtitle">We go beyond selling — we build lasting relationships with our customers</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🏆</div>
+          <h3>25+ Years Legacy</h3>
+          <p>Decades of trust and expertise in electronics retail across Mangaluru</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💳</div>
+          <h3>Easy EMI Options</h3>
+          <p>0% EMI available on leading bank cards. No-cost EMI up to 24 months</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔄</div>
+          <h3>Exchange Offers</h3>
+          <p>Get best exchange value for your old appliances against new purchases</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🛡️</div>
+          <h3>Extended Warranty</h3>
+          <p>Optional extended warranty plans for all major appliances and electronics</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">👨‍💼</div>
+          <h3>Expert Guidance</h3>
+          <p>Trained product experts to help you make the right buying decision</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📞</div>
+          <h3>After-Sales Support</h3>
+          <p>Dedicated service team for installation, repairs and maintenance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Products -->
+  <div class="section products-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">Best Sellers</div>
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-subtitle">Hand-picked top products across categories</p>
+      </div>
+      <div class="products-grid" id="featuredProducts">
+        <!-- Injected by JS -->
+      </div>
+      <div class="section-cta">
+        <button class="btn-outline" onclick="showPage('products')">View All Products →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Brands -->
+  <div class="section brands-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">Our Brands</div>
+        <h2 class="section-title">Top Brands We Carry</h2>
+        <p class="section-subtitle">Authorized dealer for India's most trusted brands</p>
+      </div>
+      <div class="brands-grid">
+        <div class="brand-pill">Samsung</div>
+        <div class="brand-pill">Apple</div>
+        <div class="brand-pill">LG</div>
+        <div class="brand-pill">Sony</div>
+        <div class="brand-pill">Voltas</div>
+        <div class="brand-pill">Daikin</div>
+        <div class="brand-pill">Whirlpool</div>
+        <div class="brand-pill">Godrej</div>
+        <div class="brand-pill">Bosch</div>
+        <div class="brand-pill">Haier</div>
+        <div class="brand-pill">OnePlus</div>
+        <div class="brand-pill">Xiaomi</div>
+        <div class="brand-pill">Realme</div>
+        <div class="brand-pill">Dell</div>
+        <div class="brand-pill">HP</div>
+        <div class="brand-pill">Lenovo</div>
+        <div class="brand-pill">Hitachi</div>
+        <div class="brand-pill">Blue Star</div>
+        <div class="brand-pill">IFB</div>
+        <div class="brand-pill">Prestige</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">Customer Reviews</div>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Join thousands of happy customers across Mangaluru</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card">
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <p>"Bought a Samsung AC from [Store Name]. The team guided me perfectly on the right capacity for my room. Installation was done the same day. Excellent service!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RK</div>
+            <div>
+              <b>Rajesh Kumar</b>
+              <span>Bejai, Mangaluru</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card featured-testi">
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <p>"Best electronics store in Mangaluru! Got my LG refrigerator at an unbeatable price with a great exchange offer for my old one. The staff is very knowledgeable and helpful. Highly recommended!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PS</div>
+            <div>
+              <b>Priya Shetty</b>
+              <span>Kadri, Mangaluru</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+          <p>"Got my son's laptop for college from here. They helped compare models and gave a genuine recommendation. No-cost EMI made it easy on the pocket. Will definitely come back!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AM</div>
+            <div>
+              <b>Anjali Menon</b>
+              <span>Hampankatta, Mangaluru</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Maps -->
+  <div class="section maps-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">Find Us</div>
+        <h2 class="section-title">Visit Our Showroom</h2>
+        <p class="section-subtitle">Conveniently located in the heart of Mangaluru</p>
+      </div>
+      <div class="map-wrapper">
+        <div class="map-info">
+          <div class="map-detail">
+            <div class="map-detail-icon">📍</div>
+            <div>
+              <b>Address</b>
+              <p>123, Main Road, Near City Centre,<br/>Mangaluru, Karnataka – 575001</p>
+            </div>
+          </div>
+          <div class="map-detail">
+            <div class="map-detail-icon">🕐</div>
+            <div>
+              <b>Business Hours</b>
+              <p>Mon – Sat: 9:30 AM – 8:30 PM<br/>Sunday: 10:00 AM – 7:00 PM</p>
+            </div>
+          </div>
+          <div class="map-detail">
+            <div class="map-detail-icon">📞</div>
+            <div>
+              <b>Phone</b>
+              <p>+91 98765 43210<br/>+91 80 1234 5678</p>
+            </div>
+          </div>
+          <a href="https://maps.google.com" target="_blank" class="btn-primary" style="display:inline-block;text-align:center;">Get Directions →</a>
+        </div>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15571.29789543764!2d74.84183!3d12.91241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf5c55%3A0x7dc33e70e4e39cae!2sMangaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1693000000000!5m2!1sen!2sin"
+            width="100%" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Store Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Strip -->
+  <div class="contact-strip">
+    <div class="container">
+      <div class="strip-content">
+        <div class="strip-text">
+          <h3>Ready to upgrade your home?</h3>
+          <p>Talk to our experts for personalized recommendations</p>
+        </div>
+        <div class="strip-actions">
+          <a href="tel:+919876543210" class="btn-glass">📞 Call Now</a>
+          <a href="https://wa.me/919876543210" class="btn-primary" target="_blank">💬 WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section faq-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-chip">FAQ</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q">Do you offer home delivery and installation? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a"><p>Yes! We offer free home delivery on orders above ₹5,000 within Mangaluru city limits. Professional installation is provided for ACs, washing machines, and other appliances at a nominal charge.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What EMI options are available? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a"><p>We offer 0% no-cost EMI on leading bank credit and debit cards for tenures of 3, 6, 9, 12, and 24 months. We also offer consumer finance through Bajaj Finserv and other NBFCs with minimal documentation.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you accept exchange of old appliances? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a"><p>Absolutely! We offer exchange programs for most appliances. Bring your old product for evaluation and get instant exchange value towards your new purchase. Exchange offers vary by brand and product.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Are the products genuine and carry warranty? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a"><p>Yes, 100%. We are authorized dealers for all brands we carry. Every product comes with the manufacturer's standard warranty. We also offer optional extended warranty plans.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I book a service request for my appliance? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a"><p>Yes, you can raise a service request through our website or by calling/WhatsApping us. Our service team will contact you within 24 hours to schedule a visit.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ PAGE: CATEGORIES ============ -->
+<section id="page-categories" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">Product Categories</h1>
+      <p>Explore our wide range of electronics and home appliances</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="categories-grid" id="categoriesGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE: PRODUCTS ============ -->
+<section id="page-products" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">Product Catalog</h1>
+      <p>Discover 5000+ products from top brands</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <!-- Filters -->
+      <div class="product-filters">
+        <div class="filter-group">
+          <label>Category</label>
+          <select id="filterCategory" onchange="filterProducts()">
+            <option value="">All Categories</option>
+            <option value="Mobile">Mobiles</option>
+            <option value="AC">Air Conditioners</option>
+            <option value="Refrigerator">Refrigerators</option>
+            <option value="Washing Machine">Washing Machines</option>
+            <option value="Smart TV">Smart TVs</option>
+            <option value="Laptop">Laptops</option>
+            <option value="Inverter">Inverters</option>
+            <option value="Water Purifier">Water Purifiers</option>
+            <option value="Sofa">Sofas</option>
+            <option value="Mattress">Mattresses</option>
+            <option value="Bed">Beds</option>
+            <option value="Kitchen">Kitchen Appliances</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Sort By</label>
+          <select id="filterSort" onchange="filterProducts()">
+            <option value="default">Default</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+          </select>
+        </div>
+        <div class="filter-group search-group">
+          <input type="text" id="productSearch" placeholder="Search products..." oninput="filterProducts()" />
+        </div>
+      </div>
+
+      <!-- EMI Calculator -->
+      <div class="emi-calculator">
+        <div class="emi-header" onclick="toggleEMI()">
+          <span>💳 EMI Calculator</span>
+          <span id="emiToggleIcon">▼</span>
+        </div>
+        <div class="emi-body" id="emiBody">
+          <div class="emi-inputs">
+            <div class="emi-field">
+              <label>Product Price (₹)</label>
+              <input type="number" id="emiPrice" value="30000" oninput="calcEMI()" />
+            </div>
+            <div class="emi-field">
+              <label>Tenure (Months)</label>
+              <select id="emiTenure" onchange="calcEMI()">
+                <option value="3">3 Months</option>
+                <option value="6">6 Months</option>
+                <option value="9">9 Months</option>
+                <option value="12" selected>12 Months</option>
+                <option value="18">18 Months</option>
+                <option value="24">24 Months</option>
+              </select>
+            </div>
+            <div class="emi-field">
+              <label>Interest Rate (%)</label>
+              <select id="emiRate" onchange="calcEMI()">
+                <option value="0">0% (No-cost EMI)</option>
+                <option value="12">12% p.a.</option>
+                <option value="14">14% p.a.</option>
+                <option value="16">16% p.a.</option>
+              </select>
+            </div>
+          </div>
+          <div class="emi-result">
+            <div class="emi-res-item">
+              <span>Monthly EMI</span>
+              <strong id="emiMonthly">₹2,500</strong>
+            </div>
+            <div class="emi-res-item">
+              <span>Total Amount</span>
+              <strong id="emiTotal">₹30,000</strong>
+            </div>
+            <div class="emi-res-item">
+              <span>Interest</span>
+              <strong id="emiInterest">₹0</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compare Bar -->
+      <div class="compare-bar" id="compareBar">
+        <div class="compare-items" id="compareItems">
+          <span class="compare-label">Compare:</span>
+        </div>
+        <button class="btn-primary btn-sm" onclick="compareProducts()">Compare Now</button>
+        <button class="btn-glass btn-sm" onclick="clearCompare()">Clear</button>
+      </div>
+
+      <div class="products-grid" id="allProducts">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE: OFFERS ============ -->
+<section id="page-offers" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">Exclusive Offers</h1>
+      <p>Best deals, cashbacks and festival offers — updated regularly</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+
+      <!-- Festival Offers -->
+      <div class="offers-section-title">
+        <span>🎉</span> Festival Offers
+      </div>
+      <div class="offers-grid">
+        <div class="offer-banner festival">
+          <div class="offer-tag">UP TO 30% OFF</div>
+          <h3>Onam Dhamaka Sale</h3>
+          <p>Get massive discounts on ACs, TVs, and refrigerators this Onam season</p>
+          <div class="offer-validity">Valid till: 30 Aug 2025</div>
+          <button class="btn-glass btn-sm" onclick="showPage('products')">Shop Now</button>
+        </div>
+        <div class="offer-banner festival2">
+          <div class="offer-tag">FLAT ₹5000 OFF</div>
+          <h3>Independence Day Special</h3>
+          <p>Flat ₹5,000 off on select Samsung & LG washing machines</p>
+          <div class="offer-validity">Valid till: 15 Aug 2025</div>
+          <button class="btn-glass btn-sm" onclick="showPage('products')">Shop Now</button>
+        </div>
+      </div>
+
+      <!-- Exchange Offers -->
+      <div class="offers-section-title">
+        <span>🔄</span> Exchange Offers
+      </div>
+      <div class="offers-grid">
+        <div class="offer-card">
+          <div class="offer-icon">📱</div>
+          <h3>Mobile Exchange</h3>
+          <p>Get up to ₹20,000 off on new smartphones with your old device</p>
+          <div class="offer-brands">Valid on: Samsung, Apple, OnePlus, Xiaomi</div>
+          <button class="btn-outline btn-sm" onclick="showPage('contact')">Get Quote</button>
+        </div>
+        <div class="offer-card">
+          <div class="offer-icon">❄️</div>
+          <h3>AC Exchange</h3>
+          <p>Exchange your old AC and get up to ₹8,000 off on a new 1.5T or 2T AC</p>
+          <div class="offer-brands">Valid on: Voltas, Daikin, LG, Samsung</div>
+          <button class="btn-outline btn-sm" onclick="showPage('contact')">Get Quote</button>
+        </div>
+        <div class="offer-card">
+          <div class="offer-icon">🧊</div>
+          <h3>Refrigerator Exchange</h3>
+          <p>Old refrigerator for new — get up to ₹5,000 exchange bonus</p>
+          <div class="offer-brands">Valid on: LG, Samsung, Whirlpool, Godrej</div>
+          <button class="btn-outline btn-sm" onclick="showPage('contact')">Get Quote</button>
+        </div>
+      </div>
+
+      <!-- Cashback Offers -->
+      <div class="offers-section-title">
+        <span>💰</span> Cashback Offers
+      </div>
+      <div class="cashback-grid">
+        <div class="cashback-card">
+          <div class="cashback-amount">₹2,000</div>
+          <div class="cashback-label">Cashback</div>
+          <p>On Smart TVs above ₹40,000</p>
+          <div class="cashback-bank">Via HDFC Bank</div>
+        </div>
+        <div class="cashback-card">
+          <div class="cashback-amount">₹1,500</div>
+          <div class="cashback-label">Cashback</div>
+          <p>On Mobiles above ₹20,000</p>
+          <div class="cashback-bank">Via SBI Card</div>
+        </div>
+        <div class="cashback-card">
+          <div class="cashback-amount">₹3,000</div>
+          <div class="cashback-label">Cashback</div>
+          <p>On Laptops above ₹50,000</p>
+          <div class="cashback-bank">Via ICICI Bank</div>
+        </div>
+        <div class="cashback-card">
+          <div class="cashback-amount">₹1,000</div>
+          <div class="cashback-label">Cashback</div>
+          <p>On any Washing Machine</p>
+          <div class="cashback-bank">Via Axis Bank</div>
+        </div>
+      </div>
+
+      <!-- Bank Offers -->
+      <div class="offers-section-title">
+        <span>🏦</span> Bank Offers
+      </div>
+      <div class="bank-offers-grid">
+        <div class="bank-offer">
+          <div class="bank-name">HDFC Bank</div>
+          <div class="bank-detail">10% Instant Discount + No-cost EMI up to 24 months</div>
+        </div>
+        <div class="bank-offer">
+          <div class="bank-name">SBI Card</div>
+          <div class="bank-detail">5% Cashback + No-cost EMI up to 12 months on all products</div>
+        </div>
+        <div class="bank-offer">
+          <div class="bank-name">ICICI Bank</div>
+          <div class="bank-detail">No-cost EMI up to 24 months + ₹3,000 gift voucher on ₹50K+</div>
+        </div>
+        <div class="bank-offer">
+          <div class="bank-name">Axis Bank</div>
+          <div class="bank-detail">5% off on Flipkart Axis card + 3 months free EMI on select products</div>
+        </div>
+        <div class="bank-offer">
+          <div class="bank-name">Bajaj Finserv</div>
+          <div class="bank-detail">0% EMI up to 24 months + Instant approval with minimal docs</div>
+        </div>
+        <div class="bank-offer">
+          <div class="bank-name">Kotak Bank</div>
+          <div class="bank-detail">10% cashback on weekend purchases + No-cost EMI up to 18 months</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE: SERVICE ============ -->
+<section id="page-service" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">Service Request</h1>
+      <p>Book a service appointment — our experts will reach you within 24 hours</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="service-grid">
+        <div class="service-form-wrap">
+          <div class="glass-card">
+            <h2 class="form-title">Book Service Request</h2>
+            <div class="form-group">
+              <label>Customer Name *</label>
+              <input type="text" id="svcName" placeholder="Enter your full name" />
+            </div>
+            <div class="form-group">
+              <label>Phone Number *</label>
+              <input type="tel" id="svcPhone" placeholder="+91 98765 43210" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Product Category *</label>
+                <select id="svcCategory">
+                  <option value="">Select Category</option>
+                  <option>Mobile Phone</option>
+                  <option>Air Conditioner</option>
+                  <option>Refrigerator</option>
+                  <option>Washing Machine</option>
+                  <option>Smart TV</option>
+                  <option>Laptop</option>
+                  <option>Inverter</option>
+                  <option>Water Purifier</option>
+                  <option>Kitchen Appliance</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Product Brand</label>
+                <input type="text" id="svcBrand" placeholder="e.g. Samsung, LG" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Product Model Number</label>
+              <input type="text" id="svcModel" placeholder="e.g. UN65AU8000" />
+            </div>
+            <div class="form-group">
+              <label>Problem Description *</label>
+              <textarea id="svcProblem" rows="4" placeholder="Describe the issue with your product in detail..."></textarea>
+            </div>
+            <div class="form-group">
+              <label>Preferred Service Date</label>
+              <input type="date" id="svcDate" />
+            </div>
+            <button class="btn-primary btn-full" onclick="submitService()">Submit Service Request</button>
+            <div class="form-note">* Our team will contact you within 24 hours to confirm the appointment</div>
+          </div>
+        </div>
+        <div class="service-info">
+          <div class="service-highlight-card">
+            <h3>Why choose our service?</h3>
+            <ul class="service-features-list">
+              <li>✅ Certified service technicians</li>
+              <li>✅ Same-day response for urgent issues</li>
+              <li>✅ Genuine spare parts used</li>
+              <li>✅ Service available 7 days a week</li>
+              <li>✅ 90-day service warranty</li>
+              <li>✅ Transparent pricing — no hidden charges</li>
+            </ul>
+          </div>
+          <div class="service-contact-cards">
+            <a href="tel:+919876543210" class="svc-contact-card">
+              <div class="svc-icon">📞</div>
+              <div>
+                <b>Call Service Desk</b>
+                <span>+91 98765 43210</span>
+              </div>
+            </a>
+            <a href="https://wa.me/919876543210" class="svc-contact-card" target="_blank">
+              <div class="svc-icon">💬</div>
+              <div>
+                <b>WhatsApp Service</b>
+                <span>Quick response 24/7</span>
+              </div>
+            </a>
+            <div class="svc-contact-card">
+              <div class="svc-icon">🕐</div>
+              <div>
+                <b>Service Hours</b>
+                <span>9 AM – 6 PM, Mon–Sat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE: ABOUT ============ -->
+<section id="page-about" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">About [Store Name]</h1>
+      <p>25+ years of trust, quality, and service excellence</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+
+      <!-- Company Story -->
+      <div class="about-story">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Our Store" />
+        </div>
+        <div class="about-content">
+          <div class="section-chip">Our Story</div>
+          <h2 class="section-title">From Humble Beginnings to Mangaluru's Best</h2>
+          <p>Founded in 2000 by [Founder Name] with a small shop and a big dream, [Store Name] has grown into one of the most trusted electronics and home appliances retailers in Mangaluru. What started as a modest shop with a handful of products has now expanded into a sprawling 10,000 sq. ft. multi-brand showroom.</p>
+          <p>Over the decades, we have served over 50,000 families across Mangaluru and surrounding districts, helping them bring home the best electronics at the best prices. Our commitment to genuine products, transparent pricing, and outstanding after-sales support has earned us an unrivaled reputation in the region.</p>
+          <div class="about-milestones">
+            <div class="milestone">
+              <span class="m-year">2000</span>
+              <span class="m-event">Founded as a small shop in Hampankatta</span>
+            </div>
+            <div class="milestone">
+              <span class="m-year">2008</span>
+              <span class="m-event">Expanded to 5,000 sq. ft. showroom</span>
+            </div>
+            <div class="milestone">
+              <span class="m-year">2015</span>
+              <span class="m-event">Became authorized dealer for 30+ brands</span>
+            </div>
+            <div class="milestone">
+              <span class="m-year">2020</span>
+              <span class="m-event">Opened new 10,000 sq. ft. flagship store</span>
+            </div>
+            <div class="milestone">
+              <span class="m-year">2025</span>
+              <span class="m-event">Serving 50,000+ happy customers strong</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission & Vision -->
+      <div class="mv-grid">
+        <div class="mv-card mission">
+          <div class="mv-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To make premium electronics and home appliances accessible to every family in Mangaluru by offering genuine products, competitive pricing, and world-class after-sales service — building lasting relationships one purchase at a time.</p>
+        </div>
+        <div class="mv-card vision">
+          <div class="mv-icon">🔭</div>
+          <h3>Our Vision</h3>
+          <p>To be the most trusted and preferred electronics retailer in coastal Karnataka, known for integrity, innovation, and creating delightful customer experiences that go beyond the transaction.</p>
+        </div>
+        <div class="mv-card values">
+          <div class="mv-icon">💡</div>
+          <h3>Our Values</h3>
+          <ul>
+            <li>Integrity in every transaction</li>
+            <li>Customer first, always</li>
+            <li>Genuine products, genuine service</li>
+            <li>Continuous improvement</li>
+            <li>Community and family</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Team -->
+      <div class="section-header" style="margin-top:3rem;">
+        <div class="section-chip">Our Team</div>
+        <h2 class="section-title">The People Behind [Store Name]</h2>
+        <p class="section-subtitle">Expert professionals dedicated to your satisfaction</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#7c3aed,#a855f7)">RK</div>
+          <h4>[Founder Name]</h4>
+          <span>Founder & Managing Director</span>
+          <p>25+ years in electronics retail</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#2563eb,#7c3aed)">PS</div>
+          <h4>[Manager Name]</h4>
+          <span>Store Manager</span>
+          <p>Expert in customer relations & operations</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#0891b2,#2563eb)">AM</div>
+          <h4>[Tech Lead Name]</h4>
+          <span>Head of Service</span>
+          <p>Certified technician with 15+ years experience</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#d97706,#ef4444)">SR</div>
+          <h4>[Sales Head Name]</h4>
+          <span>Sales Head</span>
+          <p>Product expert across all categories</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE: CONTACT ============ -->
+<section id="page-contact" class="page">
+  <div class="page-header-banner">
+    <div class="container">
+      <h1 class="page-h1">Contact Us</h1>
+      <p>We'd love to hear from you — reach us any way you prefer</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="contact-card-info">
+            <h3>Get In Touch</h3>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <b>Our Location</b>
+                <p>123, Main Road, Near City Centre,<br/>Mangaluru, Karnataka – 575001</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <b>Phone Numbers</b>
+                <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                <p><a href="tel:+918012345678">+91 80 1234 5678</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💬</div>
+              <div>
+                <b>WhatsApp</b>
+                <p><a href="https://wa.me/919876543210" target="_blank">+91 98765 43210</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <b>Email</b>
+                <p><a href="mailto:info@storename.com">info@storename.com</a></p>
+                <p><a href="mailto:service@storename.com">service@storename.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <b>Business Hours</b>
+                <p>Monday – Saturday: 9:30 AM – 8:30 PM</p>
+                <p>Sunday: 10:00 AM – 7:00 PM</p>
+                <p>Public Holidays: 10:00 AM – 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">YouTube</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="glass-card">
+            <h3>Send Enquiry</h3>
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" id="ctcName" placeholder="Your name" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Phone *</label>
+                <input type="tel" id="ctcPhone" placeholder="+91 98765 43210" />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="ctcEmail" placeholder="your@email.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Product / Category of Interest</label>
+              <input type="text" id="ctcProduct" placeholder="e.g. Samsung 55 inch TV, AC, etc." />
+            </div>
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea id="ctcMsg" rows="4" placeholder="Tell us what you're looking for..."></textarea>
+            </div>
+            <button class="btn-primary btn-full" onclick="submitContact()">Send Enquiry</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15571.29789543764!2d74.84183!3d12.91241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf5c55%3A0x7dc33e70e4e39cae!2sMangaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1693000000000!5m2!1sen!2sin"
+          width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="[Store Name] Location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:1rem;">
+          <div class="logo-mark">S</div>
+          <div class="logo-text">
+            <span class="logo-name">[Store Name]</span>
+            <span class="logo-tagline">Electronics & Appliances</span>
+          </div>
+        </div>
+        <p>Your trusted multi-brand electronics and home appliances showroom in Mangaluru since 2000. Genuine products, best prices, expert service.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">in</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('home')">Home</a></li>
+          <li><a href="#" onclick="showPage('categories')">Categories</a></li>
+          <li><a href="#" onclick="showPage('products')">Products</a></li>
+          <li><a href="#" onclick="showPage('offers')">Offers</a></li>
+          <li><a href="#" onclick="showPage('service')">Service Request</a></li>
+          <li><a href="#" onclick="showPage('about')">About Us</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-categories">
+        <h4>Top Categories</h4>
+        <ul>
+          <li><a href="#" onclick="showProductsByCategory('Mobile')">Mobile Phones</a></li>
+          <li><a href="#" onclick="showProductsByCategory('AC')">Air Conditioners</a></li>
+          <li><a href="#" onclick="showProductsByCategory('Refrigerator')">Refrigerators</a></li>
+          <li><a href="#" onclick="showProductsByCategory('Smart TV')">Smart TVs</a></li>
+          <li><a href="#" onclick="showProductsByCategory('Laptop')">Laptops</a></li>
+          <li><a href="#" onclick="showProductsByCategory('Washing Machine')">Washing Machines</a></li>
+          <li><a href="#" onclick="showProductsByCategory('Water Purifier')">Water Purifiers</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p>📍 123, Main Road, Near City Centre,<br/>Mangaluru, Karnataka – 575001</p>
+        <p>📞 <a href="tel:+919876543210">+91 98765 43210</a></p>
+        <p>💬 <a href="https://wa.me/919876543210" target="_blank">WhatsApp Us</a></p>
+        <p>✉️ <a href="mailto:info@storename.com">info@storename.com</a></p>
+        <div class="footer-hours">
+          <b>Mon–Sat:</b> 9:30 AM – 8:30 PM<br/>
+          <b>Sunday:</b> 10:00 AM – 7:00 PM
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 [Store Name]. All rights reserved. | Mangaluru, Karnataka, India</p>
+      <p>Designed with ❤️ for local businesses</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/919876543210?text=Hi!%20I%20am%20interested%20in%20your%20products.%20Please%20help%20me." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-pulse"></span>
+</a>
+
+<!-- Compare Modal -->
+<div class="modal-overlay" id="compareModal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3>Product Comparison</h3>
+      <button onclick="document.getElementById('compareModal').style.display='none'">✕</button>
+    </div>
+    <div id="compareTableWrap"></div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
